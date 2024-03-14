@@ -25,7 +25,7 @@ main {
 aside {
     width: 20rem;
     margin: 16px;
-    border: 1px rgba(0, 0, 0, 0.2);
+    border: 5px rgba(0, 0, 0, 0.2);
     padding: 1rem;
     background-color: cornsilk;
     color: rgb(68, 172, 172);
