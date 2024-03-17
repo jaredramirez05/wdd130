@@ -1,11 +1,9 @@
-body {
-    font-family: "roboto", sans-serif;
-    max-width: 960px;
-    padding: 20px;
-}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 :root {
     --primary-color: #75B9BE;
-    --secondayu-color: #A8CCC9;
+    --secondary-color: #A8CCC9;
     --accent1-color: #DCEAB2;
     --accent2-color: #C7D66D;
 

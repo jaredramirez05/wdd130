@@ -1,0 +1,17 @@
+.cuadro {
+    width: 200px;
+    height: 200px;
+    background: #000;
+    position: relative;
+    left: 200px;
+}
+
+.circulo {
+    width: 20px;
+    height: 20px;
+    background: greenyellow;
+    border-radius: 58%;
+    position:absolute;
+    left: 0;
+    top: 0;
+}
