@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+    --primary-color: #75B9BE;
+    --secondary-color: #A8CCC9;
+    --accent1-color: #DCEAB2;
+    --accent2-color: #C7D66D;
+
+    --heading-font: "roboto", serif;
+    --paragraph-font: "roboto", serif;
+
+    --nav-background-color: #75B9BE;
+    --nav-link-color: #C7D66D;
+    --nav-hover-link-color: #A8CCC9;
+    --nav-hover-background-color: #DCEAB2;
+}
+
+body {
+    
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
