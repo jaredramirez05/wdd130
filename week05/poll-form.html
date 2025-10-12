@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/poll-form.css" </head>
+
+<body>
+    <header>
+        <h1>WDD130 | HTML Form - User Poll</h1>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="column2">
+                    <label for="fullname">Full Name</label><br>
+                    <input type="text" id="fullname" name="name"><br><br>
+                </div>
+                <div class="column2"><label for="email">Email</label><br>
+                    <input type="email" id="email" name="email">
+                </div>
+            </fieldset>
+            <!-- <fieldset>
+                <legend>Contact Information</legend>
+                <label>Full Name: <input type="text" name="name"></label><br><br>
+                <label>Email: <input type="email" name="email"></label><br>
+            </fieldset> SAME RESULT EASIER WAY-->
+            <fieldset class="form-item">
+                <legend>Questions</legend>
+                <div class="column1">
+                    <label for="browser">What is your favorite browser?</label><br>
+                    <select id="browser" name="browser" <option value="chrome">Chrome</option>
+                        <option value="safari">Safari</option>
+                        <option value="edge">Edge</option>
+                        <option value="firefox">Firefox</option>
+                        <option value="other">Other</option>
+                    </select><br><br>
+                </div>
+                <div class="column1">
+                    <label for="pet">Do you have a household pet?<input type="checkbox" id="pet"
+                            name="id"><br><br></label>
+                </div>
+                <label for="feedback" id>List of places you have lived</label>
+                <textarea id="feedback" name="feedback" rows="2"
+                    placeholder="San Salvador El Salvador, San Pedro Sula Honduras, Quetzaltenango Guatemala"></textarea><br><br>
+            </fieldset>
+            <button type="submit" value="submit">Submit Poll</button><br>
+        </form>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+        <p>©2025 | Jared Ramirez | El Salvador</p>
+    </footer>
+</body>
+
+</html>
